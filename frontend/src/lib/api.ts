@@ -1,5 +1,5 @@
 // API base URL — point this to your backend server
-export const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+export const API_BASE_URL = import.meta.env.VITE_API_URL || "https://abelup-job-portal.onrender.com/api";
 
 const getToken = () => localStorage.getItem("abelup_token");
 
